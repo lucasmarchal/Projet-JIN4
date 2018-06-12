@@ -8,11 +8,9 @@
 
 #include "Frame.hpp"
 Frame::Frame(float windowWidth, float windowHeight, float width, float buffer, sf::Color color)
-:
-left(sf::Vector2f(width, windowHeight - buffer - TOOLBAR_HEIGHT)),
+: left(sf::Vector2f(width, windowHeight - buffer - TOOLBAR_HEIGHT)),
 top(sf::Vector2f(windowWidth - 2 * buffer - width, width)), // 2 buffers 4 extra space on left & left
-right(sf::Vector2f(width, windowHeight - buffer - TOOLBAR_HEIGHT))
-{
+right(sf::Vector2f(width, windowHeight - buffer - TOOLBAR_HEIGHT)) {
     left.setPosition(buffer, buffer + TOOLBAR_HEIGHT);
     top.setPosition(buffer, buffer + TOOLBAR_HEIGHT);
     right.setPosition(windowWidth - buffer - width, buffer + TOOLBAR_HEIGHT);
@@ -35,5 +33,5 @@ const char Frame::collision(sf::FloatRect &boundingBox) const {
         return 'n'; // none
     }
 }
-int Frame::getValue(){return 1;};
+int Frame::getValue() { return 1; };
 void Frame::decrementValue(){};

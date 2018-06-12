@@ -44,8 +44,8 @@ TEST(Game,level){
     std::vector<Object *> objects;
     Game game = Game(window, objects);
     EXPECT_EQ(game.indexOfFirstBlock, 1);
-    EXPECT_EQ(game.numBlocks-1, 36);
-    EXPECT_EQ(game.getObjects().size(), 38);
+    EXPECT_EQ(game.numBlocks, 36);
+    EXPECT_EQ(game.getObjects().size(), 39);
 }
 TEST(Ball,init){
     sf::ContextSettings settings;
@@ -70,6 +70,8 @@ TEST(Ball,throw_){
     EXPECT_FLOAT_EQ(ball->getVelocity().y, 0);
     EXPECT_FLOAT_EQ(ball->getCircle().getPosition().x, WINDOW_WIDTH/2);
     EXPECT_FLOAT_EQ(ball->getCircle().getPosition().y, WINDOW_HEIGHT);
+    ball->throwBall();
+    EXPECT_EQ(ball->isAttached(), false);
 }
 
 
