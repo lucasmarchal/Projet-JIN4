@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Settings
+BALLS_SPEED="6."
+BALL_SIZE="10"
+LAUNCHER_SIZE="50"
+LAUNCHER_PRECISION="0.01"
+DIRECTION_MAX="1.2"
+NB_BLOCKS_HORIZONTAL="8"
+NB_BLOCKS_VERTICAL="8"
+DEFAULT_BLOCK_VALUE="1"
+/>
+
+<!--
+ Warnings
+ • Choose a relatively low value for BALLS_SPEED, and a relatively high one for BALL_SIZE, in order for the physics to work as expected.
+ • DIRECTION_MAX should be strictly inferior to π/2, otherwise the ball will be shot downwards
+ -->
+
+
