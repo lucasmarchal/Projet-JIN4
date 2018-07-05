@@ -7,21 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A039179720C881ED00FD348E /* Block.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A039179520C881ED00FD348E /* Block.cpp */; };
-		A039179820C881ED00FD348E /* Block.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A039179520C881ED00FD348E /* Block.cpp */; };
 		A03B64E920BFFBF100241E86 /* lool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A03B64E720BFFBF100241E86 /* lool.cpp */; };
 		A03B64ED20BFFC5D00241E86 /* googleTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A03B64E420BFFBBF00241E86 /* googleTest.cpp */; };
 		A03B64EE20BFFC5D00241E86 /* lool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A03B64E720BFFBF100241E86 /* lool.cpp */; };
 		A03B64F020BFFC5D00241E86 /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A03B64E320BFFBBF00241E86 /* gtest.framework */; };
-		A05638AB20C67F8800DE8FD3 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A05638A920C67F8800DE8FD3 /* Game.cpp */; };
-		A05638AC20C67F8800DE8FD3 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A05638A920C67F8800DE8FD3 /* Game.cpp */; };
 		A06946F120BECBBA001CE947 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A06946F020BECBBA001CE947 /* main.cpp */; };
 		A07DCCB520C52F3E0053FD48 /* SFML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07DCCB420C52F3E0053FD48 /* SFML.framework */; };
 		A07DCCB620C52F560053FD48 /* SFML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07DCCB420C52F3E0053FD48 /* SFML.framework */; };
-		A0A7B3CD20C5FFF500B7528A /* Ball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0A7B3CB20C5FFF500B7528A /* Ball.cpp */; };
-		A0A7B3CE20C5FFF500B7528A /* Ball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0A7B3CB20C5FFF500B7528A /* Ball.cpp */; };
-		A0A7B3D120C60AA500B7528A /* Frame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0A7B3CF20C60AA500B7528A /* Frame.cpp */; };
-		A0A7B3D220C60AA500B7528A /* Frame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0A7B3CF20C60AA500B7528A /* Frame.cpp */; };
+		A0C9476720EED4D7001D425F /* Objects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0C9476520EED4D7001D425F /* Objects.cpp */; };
+		A0C9476820EED4D7001D425F /* Objects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0C9476520EED4D7001D425F /* Objects.cpp */; };
 		A0D7016220CAA916003FCDB1 /* pugixml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0D7016120CAA916003FCDB1 /* pugixml.cpp */; };
 		A0D7016320CAA916003FCDB1 /* pugixml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0D7016120CAA916003FCDB1 /* pugixml.cpp */; };
 		A0D7016520CAA9C3003FCDB1 /* link.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0D7016420CAA9C3003FCDB1 /* link.cpp */; };
@@ -56,24 +50,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A039179520C881ED00FD348E /* Block.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Block.cpp; sourceTree = "<group>"; };
-		A039179620C881ED00FD348E /* Block.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Block.hpp; sourceTree = "<group>"; };
 		A03B64E320BFFBBF00241E86 /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = gtest.framework; sourceTree = "<group>"; };
 		A03B64E420BFFBBF00241E86 /* googleTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = googleTest.cpp; sourceTree = "<group>"; };
 		A03B64E720BFFBF100241E86 /* lool.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lool.cpp; sourceTree = "<group>"; };
 		A03B64E820BFFBF100241E86 /* lool.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lool.hpp; sourceTree = "<group>"; };
 		A03B64F520BFFC5D00241E86 /* GoogleTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GoogleTest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A05638A920C67F8800DE8FD3 /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
-		A05638AA20C67F8800DE8FD3 /* Game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
 		A06946ED20BECBBA001CE947 /* Projet JIN4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Projet JIN4"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06946F020BECBBA001CE947 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A07DCCB220C52EEC0053FD48 /* link.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = link.hpp; sourceTree = "<group>"; };
 		A07DCCB420C52F3E0053FD48 /* SFML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SFML.framework; path = ../../../../../../Library/Frameworks/SFML.framework; sourceTree = "<group>"; };
-		A0A7B3C820C5FE8500B7528A /* Object.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Object.hpp; sourceTree = "<group>"; };
-		A0A7B3CB20C5FFF500B7528A /* Ball.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ball.cpp; sourceTree = "<group>"; };
-		A0A7B3CC20C5FFF500B7528A /* Ball.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Ball.hpp; sourceTree = "<group>"; };
-		A0A7B3CF20C60AA500B7528A /* Frame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Frame.cpp; sourceTree = "<group>"; };
-		A0A7B3D020C60AA500B7528A /* Frame.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Frame.hpp; sourceTree = "<group>"; };
+		A0C9476520EED4D7001D425F /* Objects.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Objects.cpp; sourceTree = "<group>"; };
+		A0C9476620EED4D7001D425F /* Objects.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Objects.hpp; sourceTree = "<group>"; };
 		A0D7015F20CAA916003FCDB1 /* pugiconfig.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pugiconfig.hpp; sourceTree = "<group>"; };
 		A0D7016020CAA916003FCDB1 /* pugixml.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pugixml.hpp; sourceTree = "<group>"; };
 		A0D7016120CAA916003FCDB1 /* pugixml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pugixml.cpp; sourceTree = "<group>"; };
@@ -112,15 +99,6 @@
 			path = GoogleTest;
 			sourceTree = "<group>";
 		};
-		A05638A820C67F7900DE8FD3 /* Game */ = {
-			isa = PBXGroup;
-			children = (
-				A05638A920C67F8800DE8FD3 /* Game.cpp */,
-				A05638AA20C67F8800DE8FD3 /* Game.hpp */,
-			);
-			path = Game;
-			sourceTree = "<group>";
-		};
 		A06946E420BECBBA001CE947 = {
 			isa = PBXGroup;
 			children = (
@@ -145,7 +123,6 @@
 			isa = PBXGroup;
 			children = (
 				A0A7B3B420C5E28700B7528A /* Main */,
-				A05638A820C67F7900DE8FD3 /* Game */,
 				A0A7B3C520C5FE6800B7528A /* Objects */,
 			);
 			path = "Projet JIN4";
@@ -176,13 +153,8 @@
 		A0A7B3C520C5FE6800B7528A /* Objects */ = {
 			isa = PBXGroup;
 			children = (
-				A0A7B3C820C5FE8500B7528A /* Object.hpp */,
-				A0A7B3CB20C5FFF500B7528A /* Ball.cpp */,
-				A0A7B3CC20C5FFF500B7528A /* Ball.hpp */,
-				A0A7B3CF20C60AA500B7528A /* Frame.cpp */,
-				A0A7B3D020C60AA500B7528A /* Frame.hpp */,
-				A039179520C881ED00FD348E /* Block.cpp */,
-				A039179620C881ED00FD348E /* Block.hpp */,
+				A0C9476520EED4D7001D425F /* Objects.cpp */,
+				A0C9476620EED4D7001D425F /* Objects.hpp */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -271,13 +243,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0A7B3CE20C5FFF500B7528A /* Ball.cpp in Sources */,
-				A0A7B3D220C60AA500B7528A /* Frame.cpp in Sources */,
+				A0C9476820EED4D7001D425F /* Objects.cpp in Sources */,
 				A03B64ED20BFFC5D00241E86 /* googleTest.cpp in Sources */,
-				A039179820C881ED00FD348E /* Block.cpp in Sources */,
 				A0D7016320CAA916003FCDB1 /* pugixml.cpp in Sources */,
 				A03B64EE20BFFC5D00241E86 /* lool.cpp in Sources */,
-				A05638AC20C67F8800DE8FD3 /* Game.cpp in Sources */,
 				A0D7016620CAA9C3003FCDB1 /* link.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,13 +255,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0A7B3CD20C5FFF500B7528A /* Ball.cpp in Sources */,
-				A0A7B3D120C60AA500B7528A /* Frame.cpp in Sources */,
+				A0C9476720EED4D7001D425F /* Objects.cpp in Sources */,
 				A06946F120BECBBA001CE947 /* main.cpp in Sources */,
-				A039179720C881ED00FD348E /* Block.cpp in Sources */,
 				A0D7016220CAA916003FCDB1 /* pugixml.cpp in Sources */,
 				A03B64E920BFFBF100241E86 /* lool.cpp in Sources */,
-				A05638AB20C67F8800DE8FD3 /* Game.cpp in Sources */,
 				A0D7016520CAA9C3003FCDB1 /* link.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,8 +9,8 @@
 #ifndef lool_hpp
 #define lool_hpp
 #include "link.hpp"
-#include "Game.hpp"
-#include "Object.hpp"
+
+#include "Objects.hpp"
 void load_settings(std::string file_name);
 int lool();
 #endif /* _00__hpp */
